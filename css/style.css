@@ -1,0 +1,116 @@
+:root {
+    --main-color: #fa694a;
+    --main-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Lora', serif;
+    --dark-color: #333333;
+    --grey-color: #c8c8c8;
+    --black-clr: black;
+    --secondry-color: gray;
+}
+.navbar-toggler{
+    border: none;
+}
+nav .card{
+    margin-left: 35%;
+    text-align: center;
+    color: white;
+    /* color: var(--bs-body-color); */
+    word-wrap: break-word;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    border: none;
+    /* border-radius: var(--bs-card-border-radius);*/
+    margin-top: -30%;
+
+}
+.btn{
+    background-color: var(--main-color);
+    border: none;
+    font-size: 20px;
+    padding: 1rem 3rem;
+}
+.btn:hover{
+    background-color: var(--main-color);
+    border: none;
+}
+nav.card p{
+    padding: 5% ;
+}
+nav{
+    height: 100vh;
+}
+.container-fluid{
+    margin-top: -20%;
+    position: static;
+}
+main .card{
+margin-top: 100px;
+position: static;
+}
+.fixed-top{
+    position: relative;
+    /* z-index: 1030; */
+}
+.cards{
+    gap: 10px;
+}
+.cards i {
+    border: 1px solid var(--grey-color);
+    padding: 5%;
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+.cards i:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+.cards .card{
+    border: none;
+    text-align: center;
+
+}
+p{
+    color: var(--grey-color);
+    font-family: var(--secondary-font);
+}
+.title{
+    text-align: center;
+    border: none;
+}
+.mb-12{
+    margin-left: 10%;
+}
+.img-fluid {
+    max-width: 176%;
+}
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 33.6%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+.g-0{
+    position: relative;
+}
+.btn-close{
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+}
+.card-cr{
+    width: 65%;
+    padding: 33% 1%;
+    background-color: var(--dark-color);
+}
+.car-i i{
+    position: absolute;
+    background-color: var(--main-color);
+    color: white;
+    padding: 4%;
+    border-radius: 5%;
+    top: 19%;
+    left: 43%;
+}
+.car-i{
+    position: relative;
+}
