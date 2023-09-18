@@ -83,7 +83,7 @@ p{
     max-width: 176%;
 }
 .area{
-    /* background-color: var(--dark-color); */
+    background-color: var(--dark-color);
 }
 .g-0{
     position: relative;
