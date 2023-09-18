@@ -82,11 +82,8 @@ p{
 .img-fluid {
     max-width: 176%;
 }
-.col-md-8 {
-    flex: 0 0 auto;
-    width: 33.6%;
-    margin-left: 28%;
-    margin-top: 3%;
+.area{
+    /* background-color: var(--dark-color); */
 }
 .g-0{
     position: relative;
@@ -113,4 +110,11 @@ p{
 }
 .car-i{
     position: relative;
+}
+.locate{
+    padding: 10%;
+    width: 90%;
+}
+.locate p {
+    text-align: center;
 }
